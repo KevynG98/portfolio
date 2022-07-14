@@ -5,7 +5,7 @@ import { FaPepperHot, FaJava } from "react-icons/fa"
 import { IoLogoFirebase } from "react-icons/io5"
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandKotlin } from "react-icons/tb"
-import Card from '../components/Card'
+import Card from '../components/Card/Card'
 import '../styles/Home.css';
 // rfec
 
@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, Thanks for comming, my name is Kevyn</h2>
+        <h2>Hi, Thanks for coming, my name is Kevyn</h2>
         <div className='prompt'>
           <p>A software developer who likes coding and solver problems (and a friki in his free time)</p>
           <AiFillGithub />

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Card.css'
+import '../Card/Card.css'
 
 function Card(props) {
     const logoStyle = {color: "black"};

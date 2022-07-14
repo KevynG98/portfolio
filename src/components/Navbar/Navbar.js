@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import '../styles/Navbar.css';
+import '../Navbar/Navbar.css';
 import { FiMenu } from 'react-icons/fi'
 
 function Navbar() {
@@ -24,7 +24,7 @@ function Navbar() {
       <div className='links'>
         <Link to='/'> Home </Link>
         <Link to='/projects'> Projects </Link>
-        <Link to='/about'> About </Link>
+        <Link to='/about'> About me </Link>
       </div>
     </div>
   )

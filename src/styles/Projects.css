@@ -7,6 +7,8 @@
     text-align: center;
 }
 
+
+
 .anoucement {
     font-size: 75px;
     align-items: center;
@@ -30,5 +32,12 @@
 @keyFrames blink {
     50% {
         border-color: transparent
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .anoucement {
+        font-size: 40px;
+        align-items: center;
     }
 }

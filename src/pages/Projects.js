@@ -8,6 +8,13 @@ function Projects() {
         <p>Work in progress...</p>
       </span>
       <img src='https://www.gifsanimados.org/data/media/1664/en-construccion-y-obra-imagen-animada-0020.gif' />
+      <p className='aux'> . </p>
+      <p className='aux'> . </p>
+      <p className='aux'> . </p>
+      <p className='aux'> . </p>
+      <p className='aux'> . </p>
+      <p className='aux'> . </p>
+      <p className='aux'> . </p>
     </div>
   )
 }
