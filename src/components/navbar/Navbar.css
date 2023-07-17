@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.content .image {
+    margin: 1%;
+    width: 65px;
+}
+
+.content .menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
