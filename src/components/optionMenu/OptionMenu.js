@@ -1,16 +1,12 @@
 import React from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
+import './OptionMenu.css'
 
 const OptionMenu = () => {
-    const estilo = {
-        margin: '15px',
-        height: '35px',
-        width: '35px',
-    }
 
     return (
         <div >
-            <button style={estilo}>
+            <button>
                 <AiOutlineMenu />
             </button>
         </div>

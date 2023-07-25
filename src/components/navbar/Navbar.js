@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../../assets/chasquido.png'
+import icon from '../../assets/kg_white.png'
 import OptionMenu from '../optionMenu/OptionMenu'
 import LanguajeButton from '../LanguajeButton/LanguajeButton'
 import './Navbar.css'
@@ -9,8 +9,8 @@ const Navbar = () => {
     <div className='content'>
       <img className='image' src= {icon} alt='icon'/>
       <div className='menus'>
-        <OptionMenu />
         <LanguajeButton />
+        <OptionMenu />
       </div>
     </div>
   )
