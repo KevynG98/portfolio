@@ -1,6 +1,35 @@
-h1 {
-    color: white;
+.homeContainer {
+    margin-top: 75px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
-p {
-    color: white;
+
+.homeTitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #F0F0F0;
+    outline: none;
+    text-align: center;
+}
+
+.homeTitle:hover {
+    color: #808080;
+    font-variation-settings: "wght" 582;
+    letter-spacing: 1px;
+}
+
+.homeSubtitle {
+    color: #F0F0F0;
+    font-size: 17px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

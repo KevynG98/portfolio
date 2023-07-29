@@ -52,8 +52,13 @@ My love for technology and my personal interests combine to inspire me in the se
 solutions in every project that I work on. I'm excited to keep growing in the developer world and 
 happy to face new challenges.`
 
-//Important variables
+//important links
+export const linkInstagram = 'https://www.instagram.com/gtred86/'
+export const linkTelegram = 'https://t.me/GtRed86'
+export const linklinkedin = 'https://www.linkedin.com/in/kgprogrammer98/'
 
+//Important variables
+/* It is the keys to EmailJs */
 export const emailServicesId = 'service_tgsh5fq'
 export const templateServicesId = 'template_4m80bph'
 export const publicKey = 'v447yuymhtcFyd2Ex'

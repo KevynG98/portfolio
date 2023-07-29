@@ -7,8 +7,8 @@ const OptionButton = (props) => {
     const nombre = props.name;
 
     return (
-        <div>
-            <Link to={`/${seccion}`}>{nombre}</Link>
+        <div className='optionButtonContainer'>
+            <Link className='link' to={`/${seccion}`}>{nombre}</Link>
         </div>
     )
 }

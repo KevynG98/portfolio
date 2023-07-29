@@ -5,10 +5,10 @@ import OptionButton from '../../components/OptionButton/OptionButton.js'
 
 const Home = () => {
   return (
-    <div>
-      <h1>{homeTitleES}</h1>
-      <p>{homeSubtitleES}</p>
-      <div>
+    <div className='homeContainer'>
+      <h1 className='homeTitle'>{homeTitleES}</h1>
+      <p className='homeSubtitle'>{homeSubtitleES}</p>
+      <div className='links'>
         <OptionButton page='work' name={`->${seeProjectsES}`} />
         <OptionButton page='about' name={`->${aboutES}`}/>
       </div>
