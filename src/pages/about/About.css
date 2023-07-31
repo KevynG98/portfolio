@@ -1,3 +1,35 @@
-h2 {
-    color: white;
+.contentAbout {
+    /*
+    border-color: red;
+   border-width: 1px;
+   border-style: solid;
+*/
+   margin: 75px;
+
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAbout {
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: left;
+}
+
+.profileImage {
+    width: 125%;
+    border-radius: 150px;
+}
+
+.textAbout h2 {
+    color: #F0F0F0;
+    font-size: 50px;
+}
+
+.textAbout p {
+    border-top-width: 2px;
+    border-top-style: solid;
+    color: #F0F0F0;
+    font-size: 20px;
 }

@@ -1,0 +1,10 @@
+.contentSocial {
+    color: #F0F0F0;
+    font-size: 30px;
+    margin: 20px;
+    transition: 0.50s;
+}
+
+.contentSocial:hover{
+    color: #aaaaaa;
+}

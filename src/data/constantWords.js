@@ -1,5 +1,4 @@
-import imgaen1 from '../assets/Example0/1.png'
-import imagen2 from '../assets/Example1/4.png'
+import P1 from '../assets/Project1/Project1.png'
 
 //Español
 export const homeTitleES = "Hola, soy Kevyn Giron y me gusta programar"
@@ -16,20 +15,9 @@ seguir creciendo en el mundo del desarrollo y ansioso por enfrentar nuevos desaf
 export const workListES = [
     {
         id: 0,
-        mainImage: imgaen1,
-        title: "titulo",
-        category: "categoria A, categoria B, categoria C",
-        year: "2022",
-        information: `En el tranquilo pueblo de Villa Verde, las calles empedradas se 
-        entrelazaban formando un laberinto pintoresco. Las casas de colores vivos 
-        adornaban las aceras, cada una con su propio encanto y detalles únicos. En el 
-        centro del pueblo, una plaza animada cobraba vida con la presencia de los lugareños, 
-        que se reunían allí para compartir historias y celebrar festividades locales.`
-    },
-    {
-        id: 1,
-        mainImage: imagen2,
-        title: "titulo 2",
+        route: '/work/portfolio',
+        mainImage: P1,
+        title: "Portfolio",
         category: "categoria A, categoria B, categoria C",
         year: "2022",
         information: `En el tranquilo pueblo de Villa Verde, las calles empedradas se 

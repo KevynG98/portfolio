@@ -33,7 +33,8 @@ const SendEmail = () => {
     };
 
     return (
-        <form ref={form} onSubmit={sendEmail} className='field'>
+        <div className='cForm'>
+            <form ref={form} onSubmit={sendEmail} className='field'>
             <div>
                 <label>Name</label>
                 <input type="text" name="user_name" value={nombre} onChange={(e) => setNombre(e.target.value)} required />
@@ -44,11 +45,14 @@ const SendEmail = () => {
             </div>
             <div>
                 <label>Message</label>
-                <textarea name="message" value={mensaje} onChange={(e) => setMensaje(e.target.value)} required />
+                <textarea className="message" value={mensaje} onChange={(e) => setMensaje(e.target.value)} required />
             </div>
-            {error && <p>{error}</p>}
-            <input type="submit" value="Send" />
+            <div>
+                {error && <p>{error}</p>}
+                <input className='messageField' type="submit" value="Send" />
+            </div>
         </form>
+        </div>
     )
 }
 

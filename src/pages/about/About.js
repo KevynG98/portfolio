@@ -5,14 +5,12 @@ import './About.css'
 
 const About = () => {
   return (
-    <div>
-        <div>
-          <h2>{aboutTitleES}</h2>
+    <div className='contentAbout'>
+        <div className='textAbout'>
+          <h2 className='aboutTitle'>{aboutTitleES}</h2>
           <p>{aboutParagraphES}</p>
         </div>
-        <div>
-          <img src={photo} alt="I'ts me"/>
-        </div>
+        <img className='profileImage' src={photo} alt="I'ts me"/>
     </div>
   )
 }

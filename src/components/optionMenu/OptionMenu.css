@@ -3,3 +3,8 @@ button {
     height: 50px;
     width: 50px;
 }
+
+.buttonLink {
+    color: white;
+    margin-left: 5px;
+}

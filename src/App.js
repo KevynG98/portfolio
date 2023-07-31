@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Work from './pages/work/Work';
 import NotFoundPage from './pages/notFoundPage/NotFoundPage';
+import Portfolio from './pages/portfolioWork/Portfolio';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path='/about' exact element={<About />} />
           <Route path='/contact' exact element={<Contact />} />
           <Route path='/work' exact element={<Work />} />
-          <Route path='/work/portfolio' exact element={<Work />} />
+          <Route path='/work/portfolio' exact element={<Portfolio />} />
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
       </Router>

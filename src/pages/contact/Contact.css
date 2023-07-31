@@ -1,7 +1,9 @@
-h1 {
-    color: white;
+.contentContact {
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.icons {
+h1 {
     color: white;
 }

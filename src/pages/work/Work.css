@@ -1,11 +1,33 @@
-h1 {
-    color: white;
+.workContent h1 {
+    color: #F0F0F0;
+    font-size: 50px;
 }
 
-li {
-    background: white;
+.listImage {
+    display: flex;
+    justify-content: center;
+    margin-right:100px ;
+    margin-left:100px ;
 }
 
-.a {
-    color: black;
+.list {
+    width: 25%;
+    margin-right: 50px;
+}
+
+.list .a {
+    margin-right: 30px;
+    border-radius: 25px;
+    background-color: #F0F0F0;
+    color: #141414;
+    transition: 0.5s;
+}
+
+.list .a:hover {
+    background-color: #141414;
+    color: #F0F0F0;
+}
+
+.imagen {
+    width: 45%;
 }

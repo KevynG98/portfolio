@@ -5,9 +5,11 @@ import SocialMedia from '../../components/SocialMedia/SocialMedia'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contentContact'>
+        <div className='elements'>
         <SendEmail />
         <SocialMedia />
+        </div>
     </div>
   )
 }
