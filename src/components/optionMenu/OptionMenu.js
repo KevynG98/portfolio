@@ -22,8 +22,8 @@ const OptionMenu = () => {
             </button>
             {!expandNavbar &&
                 <div className='linksNavigation'>
-                    <Link className='buttonLink' to='/'  > Home </Link>
-                    <Link className='buttonLink' to='/About'> About </Link>
+                    <Link className='buttonLink' to='/portfolio'  > Home </Link>
+                    <Link className='buttonLink' to='/about'> About </Link>
                     <Link className='buttonLink' to='/contact'> Contact </Link>
                     <Link className='buttonLink' to='/work'> Work </Link>
                 </div>
