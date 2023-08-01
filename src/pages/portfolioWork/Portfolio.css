@@ -1,0 +1,41 @@
+.portfolioContent {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.portfolioContent .textElements {
+    text-align: left;
+    color: #141414;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Color de fondo transparente */
+    backdrop-filter: blur(10px);
+    /* Desenfoque para el efecto cristal */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    /* Sombra para resaltar el efecto */
+}
+
+.portfolioContent .textElements .elemento {
+    margin-left: 30px;
+}
+
+.portfolioContent .textElements .type {
+    color: #708090;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.portfolioContent .textElements .title {
+    font-size: 50px;
+    color: #F0F0F0;
+}
+
+.portfolioContent .textElements .information {
+    margin-bottom: 50px;
+}
+
+.portfolioContent .imagesP {
+    width: 50%;
+    margin: 10px;
+}

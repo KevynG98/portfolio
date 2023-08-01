@@ -14,14 +14,14 @@ const OptionMenu = () => {
 
     return (
         <div className='button'>
-            <button
+            <button className='btn'
                 onClick={() => {
                     setExpandNavbar((prev) => !prev);
                 }}>
                 <AiOutlineMenu />
             </button>
             {!expandNavbar &&
-                <div className='links'>
+                <div className='linksNavigation'>
                     <Link className='buttonLink' to='/'  > Home </Link>
                     <Link className='buttonLink' to='/About'> About </Link>
                     <Link className='buttonLink' to='/contact'> Contact </Link>

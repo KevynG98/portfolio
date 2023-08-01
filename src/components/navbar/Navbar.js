@@ -1,7 +1,7 @@
 import React from 'react'
 import icon from '../../assets/kg_white.png'
 import OptionMenu from '../optionMenu/OptionMenu'
-import LanguajeButton from '../LanguajeButton/LanguajeButton'
+/*import LanguajeButton from '../LanguajeButton/LanguajeButton'*/
 import './Navbar.css'
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='content'>
       <img className='image' src= {icon} alt='icon'/>
       <div className='menus'>
-        <LanguajeButton />
+        { /*<LanguajeButton /> */}
         <OptionMenu />
       </div>
     </div>

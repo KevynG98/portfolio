@@ -1,10 +1,26 @@
-button {
+.btn {
     margin: 15px;
     height: 50px;
     width: 50px;
 }
 
+.linksNavigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+}
+
 .buttonLink {
-    color: white;
-    margin-left: 5px;
+    color: #F0F0F0;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.75s;
+}
+
+.buttonLink:hover {
+    color: #141414;
+    background-color: #F0F0F0;
 }

@@ -13,7 +13,7 @@ const Work = () => {
     var id = event.target.id
     var indexBuscado = listaItems.findIndex((dato) => dato.id === parseInt(id))
     //console.log(listaItems[indexBuscado].name)
-    setValor(listaItems[indexBuscado].mainImage)
+    setValor(listaItems[indexBuscado].images[0])
   }
 
   return (

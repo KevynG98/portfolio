@@ -1,4 +1,6 @@
-import P1 from '../assets/Project1/Project1.png'
+import PP1 from '../assets/Project1/Project1.png'
+import PP2 from '../assets/Project1/project2.png'
+import PP3 from '../assets/Project1/project3.png'
 
 //Español
 export const homeTitleES = "Hola, soy Kevyn Giron y me gusta programar"
@@ -16,15 +18,14 @@ export const workListES = [
     {
         id: 0,
         route: '/work/portfolio',
-        mainImage: P1,
+        images: [PP1, PP2, PP3],
         title: "Portfolio",
-        category: "categoria A, categoria B, categoria C",
-        year: "2022",
-        information: `En el tranquilo pueblo de Villa Verde, las calles empedradas se 
-        entrelazaban formando un laberinto pintoresco. Las casas de colores vivos 
-        adornaban las aceras, cada una con su propio encanto y detalles únicos. En el 
-        centro del pueblo, una plaza animada cobraba vida con la presencia de los lugareños, 
-        que se reunían allí para compartir historias y celebrar festividades locales.`
+        category: "React, Javascript, Css",
+        year: "2023",
+        information: `En mi portafolio de programador, utilizo React para construir 
+        interfaces de usuario interactivas y reactivas. React me permite crear 
+        componentes reutilizables y mejorar el rendimiento, brindando una experiencia 
+        de usuario fluida y rápida.`
     }
 ]
 
