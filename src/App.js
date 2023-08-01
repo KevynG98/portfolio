@@ -11,7 +11,7 @@ import Portfolio from './pages/portfolioWork/Portfolio';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/'>
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />} />
